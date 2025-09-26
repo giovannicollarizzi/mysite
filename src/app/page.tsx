@@ -45,9 +45,7 @@ export default function Home() {
           <section className="mt-12">
             <h2 className="text-2xl font-semibold">About</h2>
             <p className="mt-2">
-              I am a PhD candidate in Industrial Organization at Toulouse School of Economics.
-              My research develops a statistical theory
-              of the value of data that connects scaling laws to economic outcomes, with implications for platforms' data colleciton strategy and tech regulation.
+             {" I am a PhD candidate in Industrial Organization at Toulouse School of Economics. My research develops a statistical theory of the value of data that connects scaling laws to economic outcomes, with implications for platforms' data colleciton strategy and tech regulation."}
             </p>
           </section>
         </div>
