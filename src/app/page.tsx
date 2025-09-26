@@ -1,4 +1,8 @@
 import Image from "next/image";
+export const metadata = {
+  title: "Giovanni Colla Rizzi",
+  description: "Home page.",
+};
 
 export default function Home() {
   return (
