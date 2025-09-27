@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.giovannicollarizzi.com
+
+# Sitemaps
+Sitemap: https://www.giovannicollarizzi.com/sitemap.xml
