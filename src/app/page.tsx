@@ -8,19 +8,20 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-16">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 items-stretch">
-        {/* Left column: portrait */}
-        <div className="md:col-span-1">
-          <div className="relative h-64 md:h-full rounded-lg overflow-hidden shadow-md">
-            <Image
-              src="/portrait.jpg"
-              alt="Giovanni Colla Rizzi"
-              fill
-              priority
-              className="object-cover"
-              sizes="(min-width: 768px) 25vw, 100vw"
-            />
-          </div>
-        </div>
+       {/* Left column: portrait */}
+<div className="md:col-span-1">
+  <div className="relative aspect-[3/4] md:h-full rounded-lg overflow-hidden shadow-md">
+    <Image
+      src="/portrait.jpg"
+      alt="Giovanni Colla Rizzi"
+      fill
+      priority
+      className="object-cover object-top md:object-center"
+      sizes="(max-width: 768px) 100vw, 25vw"
+    />
+  </div>
+</div>
+
 
         {/* Right column: content */}
         <div className="md:col-span-3">
