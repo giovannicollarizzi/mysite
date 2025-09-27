@@ -31,7 +31,6 @@ export default function Home() {
           </p>
 
           <div className="mt-6 flex flex-wrap gap-4">
-            <a className="underline" href="mailto:giovanni.colla.rizzi@gmail.com">Email</a>
             <a className="underline" href="/research">Research</a>
 
             <a className="underline" href="/academic-cv.pdf" target="_blank" rel="noopener noreferrer">
@@ -49,7 +48,7 @@ export default function Home() {
           <section className="mt-12">
             <h2 className="text-2xl font-semibold">About</h2>
             <p className="mt-2">
-             {" I am a PhD candidate in Industrial Organization at Toulouse School of Economics. My research develops a statistical theory of the value of data that connects scaling laws to economic outcomes, with implications for platforms' data colleciton strategy and tech regulation."}
+             {" I am a PhD candidate in Industrial Organization at Toulouse School of Economics. My research develops a statistical theory of the value of data that connects scaling laws to economic outcomes, with implications for platforms' data collection strategy and tech regulation."}
             </p>
           </section>
         </div>
