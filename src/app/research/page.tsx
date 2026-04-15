@@ -18,12 +18,12 @@ export const metadata = {
   
   const jmp: Paper = {
     title: "Opening the Black Box: A Statistical Theory of the Value of Data",
-    year: "2025",
+    year: "2026",
     status: "Job Market Paper",
     pdf: "/papers/jmp.pdf",
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5157961",
     abstract:
-      "This paper develops a theory of the value of data for prediction. An agent observes an outcome and some characteristics (covariates) of a sample of individuals to predict the outcome for a target individual based on her characteristics. The main findings are: (i) covariates exhibit economies of scope, as the value of one covariate is higher when others are also observed; (ii) covariates and observations are complements when data are scarce but become substitutes when data are abundant. These findings have three policy implications. Mergers between firms having different covariates can be privately profitable yet reduce welfare, especially when data are scarce (e.g., under strict privacy rules). Allowing firms to pool covariates is always procompetitive because it removes double marginalization, whereas pooling observations can be anticompetitive when data are abundant. Finally, a data seller may profitably exclude one of several competing prediction providers even when this lowers total welfare.",
+      "	This paper develops a theory of the value of data for prediction. An agent observes a target variable and some characteristics (covariates) of a sample of individuals to predict the outcome for a target individual based on her characteristics. The main findings are: (i) covariates exhibit economies of scope, as the value of one covariate is higher when others are also observed; (ii) covariates and observations are complements when datasets are small but may become substitutes in large datasets. These results imply three policy conclusions. First, prediction markets feature barriers to entry even without fixed costs: data collection is profitable only beyond a minimum scale, and more advanced training technologies are viable only when prediction is sufficiently valuable. Second, competition between prediction sellers endogenously produces quality and technology asymmetries, especially when a large share of demand is contestable. Third, in data-acquisition markets, economies of scope create a force toward concentration: app concentration increases the value of users, so asymmetries propagate across market sides and may tip the market to a single ecosystem. Data can thus generate concentration through both entry barriers and amplification of small initial advantages.",
   };
   
   const workingPapers: Paper[] = [
@@ -31,20 +31,13 @@ export const metadata = {
       
       title: "The Price of Stability: the Rise in Markups and the Great Moderation",
       authors: "with Friedrich Lucke & Giovanni Morzenti",
-      year: "2025",
+      year: "2026",
       status: "Working Paper",
       pdf: "/papers/price_of_stab.pdf",
       ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4373471",
       abstract:
         "During the Great Moderation, macroeconomic volatility declined while firm markups increased. We document a causal relationship between volatility and markups due to tacit collusion. We exploit the legalisation of interstate banking as an exogenous decrease in volatility. Using an instrumental variable approach, we show that a 1% reduction in volatility causes a 19 p.p. increase in aggregate markups. The effect is due to large firms and firms operating in non-tradable industries. The changing market structure explains two-thirds of the effect, whereas reallocation only accounts for one-third. The reduction of volatility during the Great Moderation explains 31% of the markup increase between 1980 and 1997.",
-    },
-    {title: "Data Combination and the Supply of Privacy-Protecting Apps",
-      authors: "with Doh-Shin Jeon",
-      year: "2025",
-      status: "Work in Progress",
-      abstract:
-        "The paper analyzes the interplay of positive data spillovers across apps and negative privacy externalities across app users. We show that these two forces affect social welfare of the market equilibrium in opposite directions, potentially leading to suboptimal business model choice on part of ad-funded apps which share data  through an ad tech platform. We apply the model to analyze Apple Ad Tracking Transparency and the Digital Markets Acts provisions on user consent on tracking to show that these initiatives can increase social welfare.",
-    },
+    }
     
   ];
   
