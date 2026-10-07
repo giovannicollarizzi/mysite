@@ -17,13 +17,13 @@ export const metadata = {
   };
   
   const jmp: Paper = {
-    title: "Opening the Black Box: A Statistical Theory of the Value of Data",
+    title: "Scale and Scope in the Value of Data",
     year: "2026",
     status: "Job Market Paper",
     pdf: "/papers/jmp.pdf",
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5157961",
     abstract:
-      "This paper develops a theory of the value of data for prediction. A platform predicts a target variable for a target individual. To improve its prediction, the platform can collect covariates on that individual and training observations from similar individuals, where each observation contains the target variable and a possibly different set of covariates. The model delivers two main results. First, covariates exhibit economies of scope: one covariate becomes more valuable when the platform observes others. Second, covariates and observations are complements in small datasets but can become substitutes in large datasets. I then apply the model to competition for covariates between two ecosystems, showing that economies of scope can lead to asymmetries in data accumulation and cause tipping.",
+      "Claims of diminishing returns to data measure data by volume. I model data as three	inputs: observations, their attributes, and those a firm predicts with. In high dimensions, a learning multiplier links the attributes: with each attribute it trains on, the firm learns	the others' effects better, so returns to attributes can increase. The multiplier, a sufficient statistic for these spillovers, can be measured by estimating a learning curve.	Learning precision grows more than proportionally with observations, and returns to them can increase, provided that the firm trains on attributes stronger than some it predicts with and	samples are small.",
   };
   
   const workingPapers: Paper[] = [
