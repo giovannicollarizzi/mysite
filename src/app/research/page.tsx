@@ -17,7 +17,7 @@ export const metadata = {
   };
   
   const jmp: Paper = {
-    title: "Scale and Scope in the Value of Data",
+    title: "Rows and Columns: A Theory of Returns to Data",
     year: "2026",
     status: "Job Market Paper",
     pdf: "/papers/jmp.pdf",
