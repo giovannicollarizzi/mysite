@@ -23,7 +23,7 @@ export const metadata = {
     pdf: "/papers/jmp.pdf",
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5157961",
     abstract:
-      "Claims of diminishing returns to data measure data by volume. I model data as three	inputs: observations, their attributes, and those a firm predicts with. In high dimensions, a learning multiplier links the attributes: with each attribute it trains on, the firm learns	the others' effects better, so returns to attributes can increase. The multiplier, a sufficient statistic for these spillovers, can be measured by estimating a learning curve.	Learning precision grows more than proportionally with observations, and returns to them can increase, provided that the firm trains on attributes stronger than some it predicts with and	samples are small.",
+      "A firm learns how covariates affect an outcome, then predicts it. Some covariates, like a	user's next search, arrive too late to use but help the firm learn. With enough of them, each	observation adds more than the last in small samples; without them, each adds less. Each	covariate helps the firm learn the others' effects; how fast prediction error falls with sample	size measures these spillovers. This reconciles conflicting evidence on returns to data.	Suppliers of covariates with rights over data claim more than the data are worth; rights for	individuals avoid this unless enough covariates arrive late.",
   };
   
   const workingPapers: Paper[] = [
